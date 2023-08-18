@@ -1,0 +1,118 @@
+body {
+    padding: 0px 10px;
+    text-align: center;
+    width: 350px;
+    background-color: #dadada;
+    color: #202020;
+}
+.container {
+    margin-top: 10px;
+}
+
+.logo {
+    text-align: center;
+}
+
+a {
+    color: #202020;
+    text-decoration: none !important;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+a:hover {
+    transition: all 0.5s ease-in-out 0s;
+    color: black;
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+}
+
+/* Checkbox styles */
+.setting {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.toggle-label {
+    display: flex;
+    align-items: center;
+}
+
+.toggle {
+    margin-left: auto;
+    padding: 10px;
+}
+
+.toggle input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.slider {
+    width: 40px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 15px;
+    position: relative;
+}
+
+.slider:before {
+    content: "";
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: white;
+    top: 1px;
+    left: 1px;
+    transition: 0.2s;
+}
+
+input[type="checkbox"]:checked + .slider {
+    background-color: #202020;
+}
+
+input[type="checkbox"]:checked + .slider:before {
+    transform: translateX(20px);
+}
+
+/* Teaser styles */
+.teaser {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #202020;
+    margin-top: 20px;
+}
+
+.icon-whatsapp:hover {
+    color: #25D366;
+    transition: color 0.3s ease;
+}
+
+.icon-github:hover {
+    color: #171515;
+    transition: color 0.3s ease;
+}
+
+.icon-facebook:hover {
+    color: #3b5998;
+    transition: color 0.3s ease;
+}
+
+.icon-instagram:hover {
+    background: -webkit-linear-gradient(#515BD4, #8134AF, #DD2A7B, #FEDA77, #F58529);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: color 0.3s ease;
+}

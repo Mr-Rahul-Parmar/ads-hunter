@@ -1,7 +1,7 @@
 # ads-hunter-chrome-extension
 This ad blocker can block all ads on any website without getting detected by rahul
 
-![adblocker](blocker_logo.png)
+![adblocker](images/blocker_logo.png)
 
 How to use it?
 <ul>
